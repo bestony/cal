@@ -12,6 +12,7 @@ export default function Home() {
         <title>白宦成的日程安排</title>
       </Head>
         <FullCalendar
+            initialView="dayGridWeek"
             locale={cnLocale}
             plugins={[timeGridPlugin,dayGridPlugin, interactionPlugin]}
             nowIndicator={true}
