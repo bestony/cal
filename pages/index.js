@@ -2,6 +2,7 @@ import Head from 'next/head'
 import FullCalendar from "@fullcalendar/react";
 import interactionPlugin from "@fullcalendar/interaction";
 import timeGridPlugin from "@fullcalendar/timegrid";
+import dayGridPlugin from "@fullcalendar/daygrid";
 
 export default function Home() {
   return (
@@ -10,8 +11,7 @@ export default function Home() {
         <title>白宦成的日程安排</title>
       </Head>
         <FullCalendar
-            initialView='timeGridWeek'
-            plugins={[timeGridPlugin, interactionPlugin]}
+            plugins={[timeGridPlugin,dayGridPlugin, interactionPlugin]}
             nowIndicator={true}
             selectable
             initialEvents={[
