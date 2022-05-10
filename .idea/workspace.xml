@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7c2fd8b-3393-4453-9e3c-c379ab45b181" name="Changes" comment="feat: add invoke of daygrid plugin">
+    <list default="true" id="f7c2fd8b-3393-4453-9e3c-c379ab45b181" name="Changes" comment="feat: add options for full calendar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +114,7 @@
     <MESSAGE value="chore: update webstorm config" />
     <MESSAGE value="feat: add full calendar" />
     <MESSAGE value="feat: add invoke of daygrid plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add invoke of daygrid plugin" />
+    <MESSAGE value="feat: add options for full calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add options for full calendar" />
   </component>
 </project>
