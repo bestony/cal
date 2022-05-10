@@ -10,5 +10,10 @@ const withTM = require("next-transpile-modules")([
 ]);
 
 module.exports = withTM({
-  reactStrictMode: true
+  reactStrictMode: true,
+  webpack: (config) => {
+    config.experiments = config.experiments || {}
+    config.experiments.topLevelAwait = true
+    return config
+  },
 });
